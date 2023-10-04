@@ -33,7 +33,7 @@ if (numberOfCorrect < 0 || numberOfCorrect > 50) {
     cout << "Khong hop le";
 }
 else {
-    double sc = Score(numberOfCorrect);
+    int sc = Score(numberOfCorrect);
     string outp = status(sc);
     cout << outp;
 }
