@@ -2,11 +2,11 @@
 
 using namespace std;
 
-double Score(int numberOfCorrect ) {
+int Score(int numberOfCorrect ) {
 return numberOfCorrect * 1;
 }
 
-string status(double Score) {
+string status(int Score) {
     string str;
 if (Score < 0) {
     str = "Error";
