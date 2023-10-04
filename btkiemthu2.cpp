@@ -3,7 +3,7 @@
 using namespace std;
 
 double Score(int numberOfCorrect ) {
-return numberOfCorrect * 0.2;
+return numberOfCorrect * 1;
 }
 
 string status(double Score) {
