@@ -17,7 +17,7 @@ else if (Score < 4) {
 else if (Score >= 4 && Score <8) {
     str = "Dat";
 }
-else if (Score >= 8) {
+else if (Score >= 8 && Score <= 10) {
     str = "Gioi(Award)";
 }
 else {
